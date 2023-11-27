@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imageTag img{
+    width: 400px;
+}
+
+video{
+    width: 200px;
+    height: 400px;
+}
+
+.audioVideoTag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.listHead{
+    display: flex;
+    justify-content: center;
+}
+
+.listTagsMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.orderList{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.linkTag{
+    display: flex;
+    justify-content: center;
+}
+
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonClass{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 0;
+    border-radius: 30px;
+}
+button > a{
+    color: white;
+}
